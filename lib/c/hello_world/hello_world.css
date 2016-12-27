@@ -1,0 +1,19 @@
+div {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+div p{ 
+  border-bottom: 1px dotted gray;
+  background-color: whitesmoke;
+  font-weight: bold;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+  font-style: italic;
+  font-size: 25px; 
+}
+
+div ng-content {
+  color: darkgray;
+}
